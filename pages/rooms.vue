@@ -1,6 +1,5 @@
 <script setup>
 import { computed, ref } from 'vue';
-import { RouterLink } from 'vue-router';
 import { Icon } from '@iconify/vue';
 
 import { Swiper, SwiperSlide } from 'swiper/vue';
@@ -173,20 +172,15 @@ const roomImages = computed(() => {
                     <p class="mb-0 fw-bold">
                       NT$ 10,000
                     </p>
-                    <RouterLink
-                      :to="{
-                        name: 'room-detail',
-                        params: {
-                          roomId: 'a'
-                        }
-                      }"
+                    <NuxtLink
+                      to="/rooms/a"
                       class="icon-link icon-link-hover text-primary-100"
                     >
                       <Icon
                         class="bi  fs-5"
                         icon="mdi:arrow-right"
                       />
-                    </RouterLink>
+                    </NuxtLink>
                   </div>
                 </div>
               </div>
@@ -269,20 +263,15 @@ const roomImages = computed(() => {
                     <p class="mb-0 fw-bold">
                       NT$ 10,000
                     </p>
-                    <RouterLink
-                      :to="{
-                        name: 'room-detail',
-                        params: {
-                          roomId: 'b'
-                        }
-                      }"
+                    <NuxtLink
+                      to="/rooms/b"
                       class="icon-link icon-link-hover text-primary-100"
                     >
                       <Icon
                         class="bi  fs-5"
                         icon="mdi:arrow-right"
                       />
-                    </RouterLink>
+                    </NuxtLink>
                   </div>
                 </div>
               </div>
@@ -365,20 +354,15 @@ const roomImages = computed(() => {
                     <p class="mb-0 fw-bold">
                       NT$ 10,000
                     </p>
-                    <RouterLink
-                      :to="{
-                        name: 'room-detail',
-                        params: {
-                          roomId: 'c'
-                        }
-                      }"
+                    <NuxtLink
+                      to="/rooms/c"
                       class="icon-link icon-link-hover text-primary-100"
                     >
                       <Icon
                         class="bi  fs-5"
                         icon="mdi:arrow-right"
                       />
-                    </RouterLink>
+                    </NuxtLink>
                   </div>
                 </div>
               </div>
@@ -461,20 +445,15 @@ const roomImages = computed(() => {
                     <p class="mb-0 fw-bold">
                       NT$ 10,000
                     </p>
-                    <RouterLink
-                      :to="{
-                        name: 'room-detail',
-                        params: {
-                          roomId: 'd'
-                        }
-                      }"
+                    <NuxtLink
+                      to="/rooms/d"
                       class="icon-link icon-link-hover text-primary-100"
                     >
                       <Icon
                         class="bi  fs-5"
                         icon="mdi:arrow-right"
                       />
-                    </RouterLink>
+                    </NuxtLink>
                   </div>
                 </div>
               </div>

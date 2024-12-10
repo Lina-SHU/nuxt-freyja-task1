@@ -16,14 +16,9 @@ const confirmBooking = () => {
 
   setTimeout(() => {
     isLoading.value = false;
-    router.push({
-      name: 'booking-confirmation',
-      params: {
-        bookingId: 'HH2302183151222'
-      }
-    })
+    router.push(`/booking-confirmation/${HH2302183151222}`)
   }, 1500);
-}
+};
 
 </script>
 
