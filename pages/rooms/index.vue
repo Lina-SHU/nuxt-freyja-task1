@@ -173,12 +173,7 @@ const roomImages = computed(() => {
                       NT$ 10,000
                     </p>
                     <NuxtLink
-                      :to="{
-                        name: 'room-detail',
-                        params: {
-                          roomId: 'a'
-                        }
-                      }"
+                      to="/rooms/a"
                       class="icon-link icon-link-hover text-primary-100"
                     >
                       <Icon
@@ -269,12 +264,7 @@ const roomImages = computed(() => {
                       NT$ 10,000
                     </p>
                     <NuxtLink
-                      :to="{
-                        name: 'room-detail',
-                        params: {
-                          roomId: 'b'
-                        }
-                      }"
+                      to="/rooms/2"
                       class="icon-link icon-link-hover text-primary-100"
                     >
                       <Icon
@@ -365,12 +355,7 @@ const roomImages = computed(() => {
                       NT$ 10,000
                     </p>
                     <NuxtLink
-                      :to="{
-                        name: 'room-detail',
-                        params: {
-                          roomId: 'c'
-                        }
-                      }"
+                      to="/rooms/c"
                       class="icon-link icon-link-hover text-primary-100"
                     >
                       <Icon
@@ -461,12 +446,7 @@ const roomImages = computed(() => {
                       NT$ 10,000
                     </p>
                     <NuxtLink
-                      :to="{
-                        name: 'room-detail',
-                        params: {
-                          roomId: 'd'
-                        }
-                      }"
+                      to="/rooms/4"
                       class="icon-link icon-link-hover text-primary-100"
                     >
                       <Icon
