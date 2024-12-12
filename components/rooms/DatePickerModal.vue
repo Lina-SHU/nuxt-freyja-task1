@@ -2,15 +2,15 @@
 import { computed, onMounted, reactive, ref } from 'vue';
 
 import { DatePicker } from 'v-calendar';
-import 'v-calendar/style.css';
+
 import { useScreens } from 'vue-screen-utils';
 
-import { Icon } from '@iconify/vue';
+const { $showModal } = useNuxtApp();
 
 const modal = ref(null);
 
 onMounted(() => {
-  modal.value = $bootstrap.modal(document.getElementById('dateModal'));
+  modal.value = $showModal(document.getElementById('dateModal'));
 })
 
 const openModal = () => {

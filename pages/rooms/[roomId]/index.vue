@@ -1,5 +1,7 @@
 <script setup>
+import DatePickerModal from '@/components/rooms/DatePickerModal.vue';
 const datePickerModal = ref(null);
+const roomId = 'a';  // for navigation demo
 
 const openModal = () => {
   datePickerModal.value.openModal();
